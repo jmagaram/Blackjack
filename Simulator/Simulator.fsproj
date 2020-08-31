@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="String.fs" />
+    <Compile Include="ConstrainedType.fs" />
+    <Compile Include="Types.fs" />
+    <Compile Include="Measured.fs" />
+    <Compile Include="Array.fs" />
+    <Compile Include="Map.fs" />
+    <Compile Include="Bet.fs" />
+    <Compile Include="Result.fs" />
+    <Compile Include="Range.fs" />
+    <Compile Include="Card.fs" />
+    <Compile Include="Cards.fs" />
+    <Compile Include="ShoeComposition.fs" />
+    <Compile Include="RandomSeed.fs" />
+    <Compile Include="Counts.fs" />
+    <Compile Include="Shoe.fs" />
+    <Compile Include="SecretDealerHand.fs" />
+    <Compile Include="ActiveRound.fs" />
+    <Compile Include="Strategies.fs" />
+    <Compile Include="Simulation.fs" />
+    <Compile Include="Formatters.fs" />
+    <Compile Include="Console.fs" />
+    <Compile Include="Program.fs" />
+    <None Include="Interactive.fsx" />
+  </ItemGroup>
+
+  <ItemGroup />
+
+</Project>

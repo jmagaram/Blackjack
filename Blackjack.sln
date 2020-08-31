@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Simulator", "Simulator\Simulator.fsproj", "{C3C555CF-6095-47AD-B3E2-1FEA3A808EC0}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "SimulatorTest", "SimulatorTest\SimulatorTest.fsproj", "{95F7D731-BCBE-4B33-9BA5-FFFEA0F9C60A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DebugNoTesting|Any CPU = DebugNoTesting|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3C555CF-6095-47AD-B3E2-1FEA3A808EC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3C555CF-6095-47AD-B3E2-1FEA3A808EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3C555CF-6095-47AD-B3E2-1FEA3A808EC0}.DebugNoTesting|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3C555CF-6095-47AD-B3E2-1FEA3A808EC0}.DebugNoTesting|Any CPU.Build.0 = Debug|Any CPU
+		{C3C555CF-6095-47AD-B3E2-1FEA3A808EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3C555CF-6095-47AD-B3E2-1FEA3A808EC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95F7D731-BCBE-4B33-9BA5-FFFEA0F9C60A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95F7D731-BCBE-4B33-9BA5-FFFEA0F9C60A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95F7D731-BCBE-4B33-9BA5-FFFEA0F9C60A}.DebugNoTesting|Any CPU.ActiveCfg = DebugNoTesting|Any CPU
+		{95F7D731-BCBE-4B33-9BA5-FFFEA0F9C60A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95F7D731-BCBE-4B33-9BA5-FFFEA0F9C60A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24645CFF-CE31-473B-84A9-19643BEB601E}
+	EndGlobalSection
+EndGlobal
