@@ -9,7 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Miscellaneous.fs" />
     <Compile Include="ShoeComposition.fs" />
     <Compile Include="Shoe.fs" />
     <Compile Include="Array.fs" />
