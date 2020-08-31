@@ -1,6 +1,6 @@
 ﻿
 #I @"C:\Users\justi\source\repos\Blackjack\Blackjack\Simulator"
-#load "Types.fs" "Measured.fs" "Array.fs" "Map.fs" "Bet.fs" "Result.fs" "Range.fs" "Card.fs" "Cards.fs" "ShoeComposition.fs" "RandomSeed.fs" "Counts.fs" "Shoe.fs" "SecretDealerHand.fs" "ActiveRound.fs" "Strategies.fs" "Simulation.fs" "Formatters.fs"
+#load "String.fs" "ConstrainedType.fs" "Types.fs" "Measured.fs" "Array.fs" "Map.fs" "Bet.fs" "Result.fs" "Range.fs" "Card.fs" "Cards.fs" "ShoeComposition.fs" "RandomSeed.fs" "Counts.fs" "Shoe.fs" "SecretDealerHand.fs" "ActiveRound.fs" "Strategies.fs" "Simulation.fs" "Formatters.fs"
 
 module ShoeSpeed =
     let veryLastCard shoeCount shuffler = 
