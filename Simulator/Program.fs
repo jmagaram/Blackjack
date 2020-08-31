@@ -62,13 +62,14 @@ let main argv =
           Rules.ShoeComposition = ShoeComposition.standardShoe 8<deck>
           Rules.DealerHitRule = DealerHitRule.HitSoft17 }
     let seed = RandomSeed.timeDependent
-    let justin = createBasicStrategyPlayer "Justin (Basic)"
-    let ezra = smarterHighLowPlayer rules "Ezra (HiLo)"
+    let justin = createBasicStrategyPlayer "Justin (Basic Strategy)"
+    let ezra = smarterHighLowPlayer rules "Ezra (HiLo Strategy)"
     let players =
         Map.empty
         |> Map.add 0<seat> justin
         |> Map.add 1<seat> ezra
-    let rounds = 1_000_000
+    let rounds = 100_000
+    Console.WriteLine(sprintf "Beginning simulation of %i hands." rounds)
     let maybeDisplayEachRound =
         match Console.yesOrNo "Display each hand?" with
         | false -> 
