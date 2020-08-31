@@ -50,7 +50,7 @@ let smarterHighLowPlayer (rules:Rules) playerName =
 
 [<EntryPoint>]
 let main argv =
-    printfn "Simulating blackjack"
+    printfn "== Simulating Blackjack Strategies =="
     printfn ""
     let rules = 
         { Rules.BetRange = Range.create 1m<chips> 100m<chips>
@@ -69,7 +69,7 @@ let main argv =
         |> Map.add 0<seat> justin
         |> Map.add 1<seat> ezra
     let rounds = 100_000
-    Console.WriteLine(sprintf "Beginning simulation of %i hands." rounds)
+    printfn "Dealer hands: %i" rounds
     let maybeDisplayEachRound =
         match Console.yesOrNo "Display each hand?" with
         | false -> 
@@ -79,6 +79,7 @@ let main argv =
             Console.Write(Formatters.completedRound players r)
             Console.ReadLine() |> ignore
             r
+    printfn "This can take a couple minutes..."
     let totalBets = 
         Simulation.start rules seed players
         |> Seq.take rounds
